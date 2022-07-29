@@ -1,10 +1,13 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import CardMenu from './Home.fragment/CardMenu';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <CardMenu label="Get Device Id" onPress={() => {}} />
+      <CardMenu label="Cart" onPress={() => {}} />
+      <CardMenu label="Progress Bar" onPress={() => {}} />
     </View>
   );
 };
@@ -12,8 +15,7 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    padding: 16
   }
 });
 
