@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import {View, TouchableOpacity, StyleSheet, TextInput, Text} from 'react-native';
+import {View, TouchableOpacity, StyleSheet, TextInput} from 'react-native';
 import {IcMinPurple, IcPlusPurple} from '../../../assets';
 import {Colors, Fonts} from '../../../const';
-import {addThounsandSeparator, Scale} from '../../../utils';
+import {addThounsandSeparator} from '../../../utils';
 
 const Stepper = () => {
   const [count, setCount] = useState(1);

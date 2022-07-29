@@ -3,7 +3,6 @@ import {View, StyleSheet, Image, Text} from 'react-native';
 import {Gap} from '../../../components';
 import {Colors, Fonts} from '../../../const';
 import {formatRupiah, Scale} from '../../../utils';
-import {Photo1} from '../../../assets';
 
 const ContentCart = ({data}) => {
   return (

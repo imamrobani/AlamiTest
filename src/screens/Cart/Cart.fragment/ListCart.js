@@ -1,8 +1,9 @@
-import {FlatList, StyleSheet, Text, View} from 'react-native';
+import {FlatList, StyleSheet, View} from 'react-native';
 import React from 'react';
 import ItemCart from './ItemCart';
 import {DATA_CART} from '../Cart.mock';
 import {Colors} from '../../../const';
+import {Button} from '../../../components';
 
 const ListCart = () => {
   const renderItem = ({item, index}) => {
@@ -19,6 +20,7 @@ const ListCart = () => {
         renderItem={renderItem}
         ItemSeparatorComponent={() => <View style={styles.line} />}
       />
+      <Button text={'Checkout'} />
     </View>
   );
 };
