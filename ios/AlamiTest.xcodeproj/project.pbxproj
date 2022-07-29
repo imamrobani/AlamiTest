@@ -12,8 +12,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		38D1A7D0900440D3B39561FA /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513971C2DB09489DA7B3D165 /* Inter-SemiBold.ttf */; };
+		5392DAD7192D4F609E44335D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 779F2D6DB4E64DA189D980E3 /* Inter-Regular.ttf */; };
+		6BDA1B40C0E94B9485CE2DA5 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B413561304046658D4FDF58 /* Inter-Black.ttf */; };
+		7263E4C55BCA49A685DD3E9B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C716DCD69144A09877949E4 /* Inter-Light.ttf */; };
+		74298DD1FF25400D86AB1679 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA46E52DBCD0422186DACAEB /* Inter-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-AlamiTest-AlamiTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AlamiTest-AlamiTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		87D71FEFC31E4678AA03EF06 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54E6696EC3BA4CE8B08299BC /* Inter-Medium.ttf */; };
+		8BCEF0B2273B4766B4FEFA4C /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FD05E2C4041A9B75D41DE /* Inter-Thin.ttf */; };
+		8F44E783D5A147EA98493A54 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0660B68538774F58A7D0FD1B /* Inter-ExtraLight.ttf */; };
+		CDB1A248D39C40E39FF7F339 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9172365A5B4816AD7AD76F /* Inter-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,8 @@
 		00E356EE1AD99517003FC87E /* AlamiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AlamiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlamiTestTests.m; sourceTree = "<group>"; };
+		0660B68538774F58A7D0FD1B /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0B413561304046658D4FDF58 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AlamiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AlamiTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AlamiTest/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,11 +49,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlamiTest/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AlamiTest-AlamiTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlamiTest-AlamiTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-AlamiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTest.debug.xcconfig"; path = "Target Support Files/Pods-AlamiTest/Pods-AlamiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4FD05E2C4041A9B75D41DE /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		513971C2DB09489DA7B3D165 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		54E6696EC3BA4CE8B08299BC /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AlamiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTest.release.xcconfig"; path = "Target Support Files/Pods-AlamiTest/Pods-AlamiTest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AlamiTest-AlamiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTest-AlamiTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AlamiTest-AlamiTestTests/Pods-AlamiTest-AlamiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AlamiTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlamiTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779F2D6DB4E64DA189D980E3 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		7C716DCD69144A09877949E4 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AlamiTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AlamiTest-AlamiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamiTest-AlamiTestTests.release.xcconfig"; path = "Target Support Files/Pods-AlamiTest-AlamiTestTests/Pods-AlamiTest-AlamiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE9172365A5B4816AD7AD76F /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		DA46E52DBCD0422186DACAEB /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E418D955315B41CF9CBB1952 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +165,23 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-AlamiTest-AlamiTestTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E418D955315B41CF9CBB1952 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B413561304046658D4FDF58 /* Inter-Black.ttf */,
+				AE9172365A5B4816AD7AD76F /* Inter-Bold.ttf */,
+				DA46E52DBCD0422186DACAEB /* Inter-ExtraBold.ttf */,
+				0660B68538774F58A7D0FD1B /* Inter-ExtraLight.ttf */,
+				7C716DCD69144A09877949E4 /* Inter-Light.ttf */,
+				54E6696EC3BA4CE8B08299BC /* Inter-Medium.ttf */,
+				779F2D6DB4E64DA189D980E3 /* Inter-Regular.ttf */,
+				513971C2DB09489DA7B3D165 /* Inter-SemiBold.ttf */,
+				3D4FD05E2C4041A9B75D41DE /* Inter-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6BDA1B40C0E94B9485CE2DA5 /* Inter-Black.ttf in Resources */,
+				CDB1A248D39C40E39FF7F339 /* Inter-Bold.ttf in Resources */,
+				74298DD1FF25400D86AB1679 /* Inter-ExtraBold.ttf in Resources */,
+				8F44E783D5A147EA98493A54 /* Inter-ExtraLight.ttf in Resources */,
+				7263E4C55BCA49A685DD3E9B /* Inter-Light.ttf in Resources */,
+				87D71FEFC31E4678AA03EF06 /* Inter-Medium.ttf in Resources */,
+				5392DAD7192D4F609E44335D /* Inter-Regular.ttf in Resources */,
+				38D1A7D0900440D3B39561FA /* Inter-SemiBold.ttf in Resources */,
+				8BCEF0B2273B4766B4FEFA4C /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
