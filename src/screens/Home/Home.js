@@ -6,7 +6,7 @@ const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <CardMenu label="Get Device Id" onPress={() => {}} />
-      <CardMenu label="Cart" onPress={() => {}} />
+      <CardMenu label="Cart" onPress={() => navigation.navigate('Cart')} />
       <CardMenu label="Progress Bar" onPress={() => {}} />
     </View>
   );
