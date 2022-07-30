@@ -62,7 +62,7 @@ const ProgressBarScreen = ({navigation}) => {
     <View style={styles.container}>
       <Header label="Progress Bar" onBack={goBack} />
       <Text style={styles.title}>
-        hold on any screen to stop the progress bar and release to continue
+        "hold on any screen to stop the progress bar and release to continue"
       </Text>
       <Pressable
         style={styles.container}
