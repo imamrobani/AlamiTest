@@ -10,7 +10,7 @@ enableScreens();
 const MainApp = () => {
   return (
     <NavigationContainer>
-      <SafeAreaView style={{backgroundColor: Colors.purple300}} />
+      <SafeAreaView style={{backgroundColor: Colors.purple400}} />
       <Router />
     </NavigationContainer>
   );

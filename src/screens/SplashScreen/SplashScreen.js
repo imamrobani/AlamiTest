@@ -17,7 +17,7 @@ const SplashScreen = ({navigation}) => {
       <Animatable.View
         style={styles.container}
         useNativeDriver
-        animation={'bounceOut'}
+        animation={'bounceIn'}
         delay={500}
         duration={1500}>
         <Logo fill="red" color="white" />
