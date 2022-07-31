@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Dimensions} from 'react-native';
+import {StyleSheet, Dimensions, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import {Mario2} from '../../assets';
 import ColorSection from './Profile.fragment/ColorSection';
@@ -9,17 +9,21 @@ const {width} = Dimensions.get('window');
 
 const Profile = () => {
   return (
-    <View style={{flex: 1, backgroundColor: 'white'}}>
+    <ScrollView style={styles.container}>
       <Animatable.Image source={Mario2} style={styles.image} animation={'fadeInDown'} />
       <ColorSection />
       <MenuSection />
-    </View>
+    </ScrollView>
   );
 };
 
 export default Profile;
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white'
+  },
   image: {
     width: width,
     height: width,
