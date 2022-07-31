@@ -3,12 +3,13 @@ import {StyleSheet, View} from 'react-native';
 import CardMenu from './Home.fragment/CardMenu';
 
 const Home = ({navigation}) => {
-  const goTo = (param) => {
+  const goTo = param => {
     navigation.navigate(param);
   };
+
   return (
     <View style={styles.container}>
-      <CardMenu label="Get Device Id" onPress={() => {}} />
+      <CardMenu label="Get Device Id" onPress={() => goTo('Device')} />
       <CardMenu label="Cart" onPress={() => goTo('Cart')} />
       <CardMenu label="Progress Bar" onPress={() => goTo('ProgressBar')} />
     </View>

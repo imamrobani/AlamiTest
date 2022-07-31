@@ -3,7 +3,7 @@ module.exports = {
   bracketSameLine: true,
   singleQuote: true,
   trailingComma: 'none',
-  arrowParens: 'always',
+  arrowParens: 'avoid',
   printWidth: 100,
   proseWrap: 'preserve'
 };
