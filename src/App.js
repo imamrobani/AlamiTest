@@ -3,13 +3,14 @@ import {SafeAreaView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import Router from './router';
 import {enableScreens} from 'react-native-screens';
+import {Colors} from './const';
 
 enableScreens();
 
 const MainApp = () => {
   return (
     <NavigationContainer>
-      <SafeAreaView style={{backgroundColor: '#93C5FD'}} />
+      <SafeAreaView style={{backgroundColor: Colors.purple}} />
       <Router />
     </NavigationContainer>
   );
