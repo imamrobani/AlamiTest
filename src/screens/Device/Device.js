@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
     fontSize: 16
   },
   value: {
-    fontFamily: Fonts.INTER_REGULAR
+    fontFamily: Fonts.INTER_REGULAR,
+    fontSize: 14
   }
 });
 
